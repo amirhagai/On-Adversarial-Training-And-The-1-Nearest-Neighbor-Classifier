@@ -52,15 +52,9 @@ x_test, y_test = load_cifar10(n_examples=200)
 x_train, y_train = load_cifar10_train_data(n_examples=200)
 
 
-errors = []
-models = []
-names = []
-
-
-
 l2_eps = 1.74
 l_inf_eps = 8. / 255
-
+bs = 200
 
 
 sort_dict = sorted(linf.items())
