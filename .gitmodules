@@ -1,3 +1,4 @@
 [submodule "TRADES"]
 	path = TRADES
 	url = https://github.com/amirhagai/TRADES.git
+	branch = master
