@@ -1,8 +1,111 @@
+# Python Environment
 adversarial/
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch Models and Datasets
 *.pth
+*.pt
+*.pkl
+*.pickle
+
+# Large Data Files
+*.npy
+*.npz
+*.hdf5
+*.h5
+
+# Logs and Results
+*.log
+logs/
+training.log
+
+# Experiment Outputs
+generalization_study/
+validation_results/
+discretization_validation_results/
+successful_attacks/
+filtered_attacks/
+checkpoints/
+figs/
+models/*.pth
+models/*.pt
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# AI Assistant Directories
+# .claude/
+# .bmad-core/
+# .cursor/
+# .gemini/
+
+# Temporary and Cache Files
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.temp
+
+# Images and Plots (unless specifically needed for documentation)
 *.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.eps
+
+# HTML Reports
 *.html
 
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration Files with Secrets
+.env
+.env.local
+.env.production
+.env.staging
+config.json
+secrets.json
+credentials.json
+
+# Large Model Files
+specialized_autoencoder_final.pth
+
+# Wandb (if using)
+wandb/
+
+# MLflow (if using)
+mlruns/
+
+# TensorBoard
+runs/
+tb_logs/
 
 # BMAD (local only)
