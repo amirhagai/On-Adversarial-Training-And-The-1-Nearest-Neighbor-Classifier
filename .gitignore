@@ -1,1 +1,8 @@
 adversarial/
+__pycache__/
+*.pth
+*.png
+*.html
+
+
+# BMAD (local only)
