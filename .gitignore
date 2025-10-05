@@ -109,3 +109,19 @@ runs/
 tb_logs/
 
 # BMAD (local only)
+data/*.tar.gz
+data/*.zip
+data/**/*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+*.pkl
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.env.*
